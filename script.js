@@ -27,7 +27,7 @@ function deleteLast() {
     }
     updateDisplay();
 }
-
+/*
 function calculate() {
     try {
         currentInput = eval(currentInput).toString();
@@ -41,6 +41,7 @@ function calculate() {
         }, 1500);
     }
 }
+*/
 function calculatePercentage() {
     try {
         currentInput = (eval(currentInput) / 100).toString();
